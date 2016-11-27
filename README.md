@@ -1,6 +1,6 @@
 fill_web_form.py is a python script which submits data to a web form
 
-To test this script first sure that you have the Flask and sqlite3 python modules installed on your system
+To test this script first sure that you have the mechanize, Flask, and sqlite3 python modules installed on your system
 
 run python /<path>/<to>/FillWebForms/FlaskApp/FlaskApp/__init__.py
 
