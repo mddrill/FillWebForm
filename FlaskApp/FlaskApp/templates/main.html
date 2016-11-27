@@ -1,0 +1,21 @@
+<DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Sample Page</title>
+	<meta name="viewport" content="width=device-width"
+	initial=scale=1/>
+	<link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet">
+	<link href="{{ url_for('static', filename='favicon.ico') }}" rel="shortcut icon">
+
+</head>
+<h2>Hello, this site is meant to test my fill_web_form.py script</h2>
+<br>
+<br>
+<h1>Test Form</h1>
+<form action="/post" method="post" name="test">
+	{{ form.test_form(size=80) }}
+	<p>Form</p><br>
+      <p><input type="submit" value="Test Form"></p>
+ </form>
+</html>
