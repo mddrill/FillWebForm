@@ -4,7 +4,7 @@ To test this script first sure that you have the mechanize, Flask, and sqlite3 p
 
 run python /<path>/<to>/FillWebForms/FlaskApp/FlaskApp/__init__.py
 
-Now the test site will be running onn http://127.0.0.1
+Now the test site will be running on http://127.0.0.1
 
 Now edit fill_web_form_test.py so that the variable data contains a random word
 
